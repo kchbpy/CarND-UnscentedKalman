@@ -5,7 +5,7 @@ The code compiled without errors. The result is in "[build](./build)" folder.
 
 ## **2.Accuracy**
 The RMSE = [0.0848, 0.0889, 0.3720, 0.2992]  
-[Here](./video/ukf.ogv) is the vido of my monitor.
+[Here](./video/ukf.ogv) (./video/ukf.ogv)is the vido of my monitor.
 
 To get the accuracy I tried a lot of combinations of the `std_a_` and `std_yawdd_`, considering the NIS and the RMSE.
 
@@ -76,5 +76,5 @@ double dt = (meas_package.timestamp_ - time_us_)/1000000.0;
 
 The catch project is in the folder named "Bonus"
 
-[Here](./video/ukf.ogv) is the vido of my result.
+[Here](./video/catch.ogv)(./video/catch.ogv) is the vido of my result.
 
